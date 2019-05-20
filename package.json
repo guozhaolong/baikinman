@@ -1,0 +1,32 @@
+{
+  "name":"baikinman",
+  "main": "node_modules/expo/AppEntry.js",
+  "version": "0.0.1",
+  "description": "a game demo",
+  "author": "StevenKwok",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "@expo/vector-icons": "^9.0.0",
+    "expo-asset-utils": "^0.0.5",
+    "expo-three": "^3.0.0-alpha.6",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.6.2",
+    "react-native-console-time-polyfill": "^1.0.0",
+    "react-native-elements": "^0.19.1",
+    "text-encoding": "^0.7.0",
+    "three": "^0.100.0",
+    "xmldom-qsa": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  }
+}
